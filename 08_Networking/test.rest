@@ -1,0 +1,21 @@
+POST http://localhost:8080/math HTTP/1.1
+content-type: application/json
+
+{
+    "op": "/",
+    "left": 1,
+    "right": 0.1
+}
+###
+
+POST http://localhost:8080/db HTTP/1.1
+content-type: application/json
+
+{
+    "key": "X",
+    "value": 2
+}
+###
+GET http://localhost:8080/db/X HTTP/1.1
+
+###

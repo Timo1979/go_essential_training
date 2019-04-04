@@ -1,0 +1,10 @@
+2019/03/29 17:40:06 Error: open ccccc: The system cannot find the file specified.
+Can't open config file
+main.readConfig
+	D:/work/go/go_essential/05 Error handling/packageErrors.go:18
+main.main
+	D:/work/go/go_essential/05 Error handling/packageErrors.go:34
+runtime.main
+	D:/cp/Go/src/runtime/proc.go:200
+runtime.goexit
+	D:/cp/Go/src/runtime/asm_amd64.s:1337
